@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() 
+{
+    int n,r,temp,sum=0;
+    scanf("%d",&n);
+    temp=n;
+    while(n>0)
+    {
+        r=n%10;
+        sum=sum*10+r;
+        n=n/10;
+    }
+    if(temp==sum)
+    printf(" Armstrong number");
+    else
+    printf(" not an armstrong number")
+}
+
+
+int number = 6776
+temp = 0;
+int n = 6776%10=6
+temp = temp*10 + n;
+number= number/10;
